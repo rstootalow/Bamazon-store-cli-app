@@ -1,0 +1,14 @@
+{
+  "name": "bamazon-packages",
+  "version": "1.0.0",
+  "description": "npm packages for bamazon project",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "rich tutalo",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  }
+}
