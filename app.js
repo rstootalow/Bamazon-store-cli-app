@@ -14,10 +14,7 @@ var connection = mysql.createConnection({
 });
 
 connection.connect(function(err){
-    if (err) {
-        console.error("Error connecting: " + err.stack);
-        return;
-    }
+    if (err) throw err;
     console.log("\nConnected with id: " + connection.threadID + "\n");
     // startApp()
 });
@@ -57,9 +54,9 @@ function userInput() {
                 },
                 filter: Number
             }
-        ]).then(function(input){
-            var userRequest = input.item_id;
-            var quantity = input.quantity;
+        ]).then(function(answer){
+            var userRequest = answer.item_id;
+            var quantity = answer.quantity;
 
             var newQuery = "SELECT * FROM products WHERE ?";
 
