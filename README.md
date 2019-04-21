@@ -1,7 +1,8 @@
 # Bamazon-store-cli-app
 CLI Application using Node.js and SQL
 # Overview
-This application 
+<p>This application is a command line Amazon-like store. The user is shown an inventory of current items with their associated prices per unit. The user will select the item they want by the item's ID and will then be prompted to select the number of that item they would like to purchase.</p>
+<p>Once selected, if the number of items selected are in stock, the user will be shown the total price of their purchase. If the number of items selected is more than currently in stock, the user will be shown a message indicating the number of items they requested are not currently in stock.</p> 
 
 ## NPM Packages
 
