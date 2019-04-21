@@ -8,10 +8,10 @@ INSERT INTO products(item_id, product_name, department_name, price, stock_quanti
 VALUES (3, "Brita Pitcher", "Home Goods", 25.99, 600);
 
 INSERT INTO products(item_id, product_name, department_name, price, stock_quantity)
-VALUES (4, "Dyson Vacuum", "Home Goods", "400.00", 75);
+VALUES (4, "Dyson Vacuum", "Home Goods", 400.00, 75);
 
 INSERT INTO products(item_id, product_name, department_name, price, stock_quantity)
-VALUES (5, "Head & Shoulders", "Home & Goods", "3.99", 1200);
+VALUES (5, "Head & Shoulders", "Home & Goods", 3.99, 1200);
 
 INSERT INTO products(item_id, product_name, department_name, price, stock_quantity)
 VALUES (6, "Slap-Chop", "Home & Goods", 7.99, 50);

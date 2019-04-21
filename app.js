@@ -81,9 +81,10 @@ function userInput() {
                             console.log("The total charge for this order is: " + "$" + merchData.price * quantity);
                             console.log("********************");
                         //create new SQL query for updating the database
-                        var queryUpdate = "UPDATE products SET stock_quantity = " + (merchData.stock_quantity - quantity) + "WHERE item_id = " + userRequest
+                        var queryUpdate = "UPDATE products SET stock_quantity = " +(merchData.stock_quantity - quantity) + "WHERE item_id = " + userRequest
+                       
 
-                        connection.query(queryUpdate, function(err, data){
+                        connection.query(queryUpdate, function(err){
                             if (err) throw err; 
                             //break connection to database once order is placed
                             connection.end();
