@@ -11,8 +11,6 @@ This application
 #### [mysql](https://www.npmjs.com/package/mysql): This package was used to connect the mysql database to node.js.  <br> 
 
 
-<code>npm install dotenv</code> 
-
 ## Application Commands and Screenshots
 
 * <code>node app.js</code>
